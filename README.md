@@ -15,11 +15,10 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
-
-Program to find the square root for the given number(newton's method) using function.
-Developed by: sivabalan
-RegisterNumber:  22004401
 ```python
+#Program to find the square root for the given number(newton's method) using function.
+#Developed by: Sivabalan S
+#Register number:  22004401
 def root(x):
     for i in range(10):
         x=0.5*(x+b/x)
